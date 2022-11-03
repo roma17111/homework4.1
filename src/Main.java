@@ -10,5 +10,14 @@ public class Main {
         else if (student) {System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");}
         else {System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");}
 
+        int age1 = 16;
+        boolean people1 = age1< 5 && age1 > 0;
+        boolean people2 = age1 >= 5 && age1 <14;
+        if (people1) {System.out.println("Если ребенку " + age1 + " года, то он не может кататься на " +
+                "аттракционе.");}
+        else if (people2) {System.out.println("Если ребёнку " + age1 + " лет," +
+                " то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");}
+        else {System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");}
+
     }
 }
