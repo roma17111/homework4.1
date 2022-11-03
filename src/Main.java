@@ -19,5 +19,14 @@ public class Main {
                 " то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");}
         else {System.out.println("Если ребенок старше 14 лет, то он может кататься без сопровождения взрослого.");}
 
+        int one = 7;
+        int two = 1;
+        int three = 9;
+        if (one > two && one > three) {System.out.println("Максимальное число " + one);}
+        else if (two > one && two > three) {System.out.println("Максимальное число " + two);}
+        else if (three > two && three > one) {System.out.println("Максимальное число " + three);}
+         else {System.out.println("числа равны");}
+
+
     }
 }
